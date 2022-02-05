@@ -1,0 +1,250 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$spacing-base: 15px;
+$spacing-xs: $spacing-base / 4;
+$spacing-sm: $spacing-base / 2;
+$spacing-lg: $spacing-base * 2;
+$spacing-xl: $spacing-base * 3;
+$border-radius: $spacing-sm;
+
+@media (prefers-color-scheme: dark) {
+  .light-mode-only {
+    display: none;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .dark-mode-only {
+    display: none;
+  }
+}
+
+html {
+  --link-color: #e1beff;
+  --background-color: linear-gradient(#300, #700);
+  --text-color: rgb(247, 211, 173);
+
+  ::selection {
+    background: var(--link-color);
+    color: white;
+  }
+
+  font-size: 16px;
+  min-height: 100vh;
+  line-height: 22px;
+
+  @media print {
+    font-size: 14px;
+  }
+}
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+  font-family: Menlo, Consolas, "Andale Mono WT", "Andale Mono",
+    "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono",
+    "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco,
+    "Courier New", Courier, monospace;
+  margin: 0;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: $spacing-base;
+}
+
+.image-hero {
+  display: flex;
+  justify-content: center;
+
+  > img {
+    max-width: 500px;
+    width: 100%;
+  }
+}
+
+.marquee {
+  margin-top: $spacing-base;
+  position: relative;
+  overflow: hidden;
+  --offset: 20vw;
+  --move-initial: calc(-25% + var(--offset));
+  --move-final: calc(-50% + var(--offset));
+}
+
+.marquee__inner {
+  width: fit-content;
+  display: flex;
+  position: relative;
+  transform: translate3d(var(--move-initial), 0, 0);
+  animation: marquee 10s linear infinite;
+}
+
+.marquee span {
+  font-size: 300%;
+  line-height: normal;
+  padding: 0 4vw;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .marquee span {
+    font-size: 250%;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(var(--move-initial), 0, 0);
+  }
+
+  100% {
+    transform: translate3d(var(--move-final), 0, 0);
+  }
+}
+
+.charm-points {
+  list-style: none;
+  padding: 0;
+
+  > li {
+    display: flex;
+    align-items: center;
+    font-size: 120%;
+    line-height: normal;
+    margin-bottom: $spacing-lg;
+  }
+}
+
+.charm-point-icon {
+  color: #000;
+  font-size: 200%;
+  line-height: normal;
+  margin-right: $spacing-base;
+}
+
+@media screen and (max-width: 768px) {
+  .charm-points > li {
+    font-size: 100%;
+  }
+}
+
+h1 {
+  display: flex;
+  font-size: 300%;
+  margin-bottom: $spacing-lg;
+  margin-top: $spacing-base;
+  line-height: $spacing-xl * 1.1;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: flex;
+  margin-bottom: $spacing-base;
+  margin-top: $spacing-xl;
+
+  @media print {
+    margin-bottom: $spacing-sm;
+    margin-top: $spacing-lg;
+  }
+}
+
+h2 {
+  font-size: 200%;
+  line-height: $spacing-lg * 1.25;
+}
+
+h2 + h3 {
+  margin-top: $spacing-lg;
+}
+
+.app-store-badge > img {
+  width: $spacing-xl * 4;
+
+  &:hover {
+    filter: brightness(75%);
+  }
+}
+
+.app-icon {
+  border-radius: 10px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.header {
+  margin-bottom: $spacing-lg;
+}
+
+.header-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: $spacing-base;
+
+  > a {
+    &:hover {
+      filter: brightness(75%);
+    }
+  }
+}
+
+.header-link {
+  margin-left: $spacing-sm;
+  text-decoration: none;
+  color: var(--text-color);
+  &:hover {
+    filter: brightness(75%);
+  }
+}
+
+a {
+  color: var(--link-color);
+}
+
+.promo-screenshots {
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__screenshot {
+    max-width: 250px;
+    border-radius: $border-radius;
+    box-shadow: 0 0 15px rgba(#000, 0.25);
+    margin: $spacing-sm;
+    min-width: 150px;
+    max-height: 500px;
+  }
+}
+
+.promo-artwork {
+  border-radius: $border-radius;
+  max-width: 100%;
+}
+
+.screen-reader-only {
+  position: absolute;
+  left: -5000px;
+
+  &:focus {
+    background: #fff;
+    color: #000;
+    left: 0;
+    padding: $spacing-lg;
+  }
+}
+
+.large-screens-only {
+  @media screen and (max-width: 400px) {
+    display: none;
+  }
+}

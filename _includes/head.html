@@ -1,0 +1,12 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {%- seo -%}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    <script src="{{ "/assets/main.js" | relative_url }}"></script>
+    {% if page.app_banner %}
+    <meta name="apple-itunes-app" content="app-id={{ page.app_banner }}">
+    {% endif %}
+    <meta name="theme-color" content="#330000">
+  </head>
