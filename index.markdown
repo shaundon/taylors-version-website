@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Home"
+title: "Taylor's Version"
 ---
 
 <div class="image-hero">
