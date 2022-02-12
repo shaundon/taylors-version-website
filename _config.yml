@@ -21,11 +21,11 @@
 title: Taylor's Version
 email: hi@taylorsversion.app
 description: >- # this means to ignore newlines until "baseurl:"
-  Upgrade your Taylor Swift songs
+  Get Taylor's Version for iOS and upgrade your Spotify playlists
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://taylorsversion.app" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: shaundon
-github_username: shaundon
+twitter_username: shauneba
+github_username: shauneba
 
 # Build settings
 #theme: minima

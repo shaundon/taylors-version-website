@@ -1,7 +1,5 @@
 ---
 layout: default
-description: "Get Taylor's Version for iOS"
-app_banner: id1605275753
 ---
 
 <div class="image-hero">

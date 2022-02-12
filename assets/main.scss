@@ -151,6 +151,8 @@ h6 {
   display: flex;
   margin-bottom: $spacing-base;
   margin-top: $spacing-xl;
+  text-transform: uppercase;
+  font-style: italic;
 
   @media print {
     margin-bottom: $spacing-sm;
