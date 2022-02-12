@@ -71,6 +71,28 @@ main {
   --offset: 20vw;
   --move-initial: calc(-25% + var(--offset));
   --move-final: calc(-50% + var(--offset));
+
+  &:hover {
+    .marquee__inner {
+      animation-play-state: paused;
+    }
+  }
+
+  a {
+    color: inherit;
+    font-size: 300%;
+    line-height: normal;
+    padding: 0 4vw;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+      filter: brightness(75%);
+    }
+  }
 }
 
 .marquee__inner {
@@ -79,16 +101,6 @@ main {
   position: relative;
   transform: translate3d(var(--move-initial), 0, 0);
   animation: marquee 10s linear infinite;
-}
-
-.marquee span {
-  font-size: 300%;
-  line-height: normal;
-  padding: 0 4vw;
-  white-space: nowrap;
-  text-transform: uppercase;
-  font-style: italic;
-  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
@@ -206,6 +218,12 @@ h2 + h3 {
   &:hover {
     filter: brightness(75%);
   }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: $spacing-lg;
 }
 
 a {

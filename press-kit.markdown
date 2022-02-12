@@ -43,65 +43,30 @@ I'm happy to make myself available to any journalists, bloggers or podcasters wi
 
 ## Media
 
-TODO
+[Download all media (.zip)](/assets/presskit.zip)
 
 ### Screenshots
 
-TODO
+<div class="promo-screenshots__wrapper">
 
-<!-- <div class="promo-screenshots__wrapper">
+  <img src="/assets/screenshots/light/home.PNG" class="promo-screenshots__screenshot">
+  <img src="/assets/screenshots/dark/home.PNG" class="promo-screenshots__screenshot">
 
-  <img src="/assets/press-kit/screenshots/light/main screen.PNG" class="promo-screenshots__screenshot">
-  <img src="/assets/press-kit/screenshots/dark/main screen.PNG" class="promo-screenshots__screenshot">
+  <img src="/assets/screenshots/light/loading.PNG" class="promo-screenshots__screenshot">
+  <img src="/assets/screenshots/dark/loading.PNG" class="promo-screenshots__screenshot">
 
-  <img src="/assets/press-kit/screenshots/light/insights - top.PNG" class="promo-screenshots__screenshot">
-  <img src="/assets/press-kit/screenshots/dark/insights - top.PNG" class="promo-screenshots__screenshot">
+  <img src="/assets/screenshots/light/app-icon.PNG" class="promo-screenshots__screenshot">
+  <img src="/assets/screenshots/dark/app-icon.PNG" class="promo-screenshots__screenshot">
 
-  <img src="/assets/press-kit/screenshots/light/insights - bottom.PNG" class="promo-screenshots__screenshot">
-  <img src="/assets/press-kit/screenshots/dark/insights - bottom.PNG" class="promo-screenshots__screenshot">
+  <img src="/assets/screenshots/light/playlist.PNG" class="promo-screenshots__screenshot">
+  <img src="/assets/screenshots/dark/playlist.PNG" class="promo-screenshots__screenshot">
 
-  <img src="/assets/press-kit/screenshots/light/share screen.PNG" class="promo-screenshots__screenshot">
-  <img src="/assets/press-kit/screenshots/dark/share screen.PNG" class="promo-screenshots__screenshot">
+  <img src="/assets/screenshots/light/playlists.PNG" class="promo-screenshots__screenshot">
+  <img src="/assets/screenshots/dark/playlists.PNG" class="promo-screenshots__screenshot">
 
-  <img src="/assets/press-kit/screenshots/light/workout details - top.PNG" class="promo-screenshots__screenshot">
-  <img src="/assets/press-kit/screenshots/dark/workout details - top.PNG" class="promo-screenshots__screenshot">
-
-  <img src="/assets/press-kit/screenshots/light/workout details - bottom.PNG" class="promo-screenshots__screenshot">
-  <img src="/assets/press-kit/screenshots/dark/workout details - bottom.PNG" class="promo-screenshots__screenshot">
-
-  <img src="/assets/press-kit/screenshots/light/energy burned statistics.PNG" class="promo-screenshots__screenshot">
-  <img src="/assets/press-kit/screenshots/dark/energy burned statistics.PNG" class="promo-screenshots__screenshot">
-
-  <img src="/assets/press-kit/screenshots/light/leaderboard.PNG" class="promo-screenshots__screenshot">
-  <img src="/assets/press-kit/screenshots/dark/leaderboard.PNG" class="promo-screenshots__screenshot">
-
-  <img src="/assets/press-kit/screenshots/light/new leaderboard.PNG" class="promo-screenshots__screenshot">
-  <img src="/assets/press-kit/screenshots/dark/new leaderboard.PNG" class="promo-screenshots__screenshot">
-
-  <img src="/assets/press-kit/screenshots/light/workout day - all days.PNG" class="promo-screenshots__screenshot">
-  <img src="/assets/press-kit/screenshots/dark/workout day - all days.PNG" class="promo-screenshots__screenshot">
-
-  <img src="/assets/press-kit/screenshots/light/workout day - one day.PNG" class="promo-screenshots__screenshot">
-  <img src="/assets/press-kit/screenshots/dark/workout day - one day.PNG" class="promo-screenshots__screenshot">
-
-  <img src="/assets/press-kit/screenshots/light/workout route map.PNG" class="promo-screenshots__screenshot">
-  <img src="/assets/press-kit/screenshots/dark/workout route map.PNG" class="promo-screenshots__screenshot">
-
-  <img src="/assets/press-kit/screenshots/light/app icon.PNG" class="promo-screenshots__screenshot">
-  <img src="/assets/press-kit/screenshots/dark/app icon.PNG" class="promo-screenshots__screenshot">
-
-</div> -->
+</div>
 
 ### Promotional artwork
 
-TODO
+![Promotional artwork](/assets/screenshots/promo-banner.png){:class="promo-artwork"}
 
-<!-- ![Personal Best Banner 1](/assets/press-kit/artwork/banner_1.png){:class="promo-artwork"}
-
-![Personal Best Banner 2](/assets/press-kit/artwork/banner_2.png){:class="promo-artwork"}
-
-![Personal Best Banner 3](/assets/press-kit/artwork/banner_3.png){:class="promo-artwork"}
-
-![Personal Best Banner 4](/assets/press-kit/artwork/banner_4.png){:class="promo-artwork"}
-
-![Personal Best Screenshots](/assets/press-kit/artwork/various-screenshots.png){:class="promo-artwork"} -->
